@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_marginTop="?attr/actionBarSize"
+    tools:context=".QuizFragment2">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/transparent"
+        android:title="20210808 강민성"
+        android:elevation="4dp"/>
+
+    <TextView
+        android:id="@+id/text_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q2. 안드로이드의 4가지 컴포넌트가 아닌 것은?"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="서비스" />
+
+        <RadioButton
+            android:id="@+id/radio_provider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="컨텐트 제공자" />
+
+        <RadioButton
+            android:id="@+id/radio_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="액티비티" />
+
+        <RadioButton
+            android:id="@+id/radio_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="클래스" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="다음 문제"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>

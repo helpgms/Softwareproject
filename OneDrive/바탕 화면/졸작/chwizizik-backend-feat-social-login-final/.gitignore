@@ -1,0 +1,27 @@
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+*.class
+
+### Gradle ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+
+### IntelliJ ###
+.idea/
+*.iml
+out/
+
+### VS Code ###
+.vscode/
+
+### Logs ###
+*.log
+
+### OS ###
+.DS_Store
+Thumbs.db

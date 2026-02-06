@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">내 애플리케이션</string>
+    <string name="add_entry">일기 작성</string>
+    <string name="view_diary">일기 보기</string>
+    <string name="no_diary">선택한 날짜에 일기가 없습니다.</string>
+    <string name="select_date">날짜를 선택해주세요.</string>
+    <string name="selected_date">선택된 날짜: %1$s</string>
+</resources>
